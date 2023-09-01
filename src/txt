@@ -1,0 +1,18 @@
+<Router>
+        <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+        <Alert alert={alert} />
+        <div className="container my-2">
+
+            {/* users ---> Component 1
+          /users/home ---> Component 2  */}
+             <Routes>
+             <Route exact path="/about" element={<About />} />
+         
+             <Route exact path="/" element={ <TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter," mode={mode} />} />
+            
+         
+          
+        </Routes>
+   </div >
+   </Router>
+    </>

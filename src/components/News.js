@@ -50,7 +50,8 @@ const handleNextClick = async () => {
 
     return (
       <>
-        <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}>NewsMonkey - Top {props.category} Headlines</h1>
+        <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}
+        >NewsMonkey - Top {props.category} Headlines</h1>
         {/* {loading && <Spinner />} */}
 
         <InfiniteScroll
